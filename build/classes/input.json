@@ -1,0 +1,30 @@
+{
+	"firstname": "Arbaaz Singh",
+	"lastname": "Sidhu",
+	"age": "23",
+	"gender": "male",
+	"location": "America/New_York",
+	"height": "5.6",
+	"heightIN": "ft",
+	"weight": "145",
+	"weightIN": "pounds",
+	"activityLevel": "2",
+	"disease": "renal",
+	"query": {
+		"cuisine": "indian",
+		"excludeIngredients": "olives",
+		"includeIngredients": "potato, tomato",
+		"intolerances": "",
+		"maxCalories": "1500",
+		"maxCarbs": "400",
+		"maxFat": "100",
+		"maxProtein": "250",
+		"minCalories": "100",
+		"minCarbs": "50",
+		"minFat": "10",
+		"minProtein": "25",
+		"querywords": "*",
+		"type": ""
+	}
+
+}

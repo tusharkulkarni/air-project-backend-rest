@@ -1,0 +1,1074 @@
+[{
+	"readyInMinutes": 25,
+	"imageUrl": "https:\/\/spoonacular.com\/recipeImages\/paneer-pakora--how-to-make-paneer-pakora---diwali-snacks-s-488194.jpg",
+	"vegetarian": true,
+	"vegan": false,
+	"title": "paneer pakora, how to make paneer pakora | diwali snacks s",
+	"url": "https:\/\/spoonacular.com\/paneer-pakora-how-to-make-paneer-pakora-diwali-snacks-s-488194",
+	"recipeId": 488194,
+	"nutrients": [{
+		"amount": 440,
+		"unit": "cal",
+		"percentOfDailyNeeds": 22,
+		"title": "Calories"
+	}, {
+		"amount": 21.71,
+		"unit": "g",
+		"percentOfDailyNeeds": 33.4,
+		"title": "Fat"
+	}, {
+		"amount": 36.87,
+		"unit": "g",
+		"percentOfDailyNeeds": 12.29,
+		"title": "Carbohydrates"
+	}, {
+		"amount": 22.89,
+		"unit": "g",
+		"percentOfDailyNeeds": 45.78,
+		"title": "Protein"
+	}]
+}, {
+	"readyInMinutes": 150,
+	"imageUrl": "https:\/\/spoonacular.com\/recipeImages\/Lamb-Samosas-582245.jpg",
+	"vegetarian": false,
+	"vegan": false,
+	"title": "Lamb Samosas",
+	"url": "https:\/\/spoonacular.com\/lamb-samosas-582245",
+	"recipeId": 582245,
+	"nutrients": [{
+		"amount": 494.91,
+		"unit": "cal",
+		"percentOfDailyNeeds": 24.75,
+		"title": "Calories"
+	}, {
+		"amount": 28.68,
+		"unit": "g",
+		"percentOfDailyNeeds": 44.12,
+		"title": "Fat"
+	}, {
+		"amount": 42.93,
+		"unit": "g",
+		"percentOfDailyNeeds": 14.31,
+		"title": "Carbohydrates"
+	}, {
+		"amount": 19.62,
+		"unit": "g",
+		"percentOfDailyNeeds": 39.25,
+		"title": "Protein"
+	}]
+}, {
+	"readyInMinutes": 40,
+	"imageUrl": "https:\/\/spoonacular.com\/recipeImages\/aloo-raita-2-121208.jpg",
+	"vegetarian": true,
+	"vegan": false,
+	"title": "Aloo Raita",
+	"url": "https:\/\/spoonacular.com\/aloo-raita-121208",
+	"recipeId": 121208,
+	"nutrients": [{
+		"amount": 173.16,
+		"unit": "cal",
+		"percentOfDailyNeeds": 8.66,
+		"title": "Calories"
+	}, {
+		"amount": 5.49,
+		"unit": "g",
+		"percentOfDailyNeeds": 8.44,
+		"title": "Fat"
+	}, {
+		"amount": 23.68,
+		"unit": "g",
+		"percentOfDailyNeeds": 7.89,
+		"title": "Carbohydrates"
+	}, {
+		"amount": 8.89,
+		"unit": "g",
+		"percentOfDailyNeeds": 17.77,
+		"title": "Protein"
+	}]
+}, {
+	"readyInMinutes": 50,
+	"imageUrl": "https:\/\/spoonacular.com\/recipeImages\/Crescent-Samosas-174027.jpg",
+	"vegetarian": false,
+	"vegan": false,
+	"title": "Crescent Samosas",
+	"url": "https:\/\/spoonacular.com\/crescent-samosas-174027",
+	"recipeId": 174027,
+	"nutrients": [{
+		"amount": 330.68,
+		"unit": "cal",
+		"percentOfDailyNeeds": 16.53,
+		"title": "Calories"
+	}, {
+		"amount": 17.09,
+		"unit": "g",
+		"percentOfDailyNeeds": 26.3,
+		"title": "Fat"
+	}, {
+		"amount": 40.27,
+		"unit": "g",
+		"percentOfDailyNeeds": 13.42,
+		"title": "Carbohydrates"
+	}, {
+		"amount": 7.69,
+		"unit": "g",
+		"percentOfDailyNeeds": 15.37,
+		"title": "Protein"
+	}]
+}, {
+	"readyInMinutes": 40,
+	"imageUrl": "https:\/\/spoonacular.com\/recipeImages\/hurda-bhajji-or-hurda-pakora--how-to-make-hurda-bhajji-487410.jpg",
+	"vegetarian": true,
+	"vegan": true,
+	"title": "hurda bhajji or hurda pakora, how to make hurda bhajji",
+	"url": "https:\/\/spoonacular.com\/hurda-bhajji-or-hurda-pakora-how-to-make-hurda-bhajji-487410",
+	"recipeId": 487410,
+	"nutrients": [{
+		"amount": 517.87,
+		"unit": "cal",
+		"percentOfDailyNeeds": 25.89,
+		"title": "Calories"
+	}, {
+		"amount": 18.93,
+		"unit": "g",
+		"percentOfDailyNeeds": 29.13,
+		"title": "Fat"
+	}, {
+		"amount": 75.98,
+		"unit": "g",
+		"percentOfDailyNeeds": 25.33,
+		"title": "Carbohydrates"
+	}, {
+		"amount": 16.93,
+		"unit": "g",
+		"percentOfDailyNeeds": 33.85,
+		"title": "Protein"
+	}]
+}, {
+	"readyInMinutes": 25,
+	"imageUrl": "https:\/\/spoonacular.com\/recipeImages\/Dill-Leaves-Pakora-600796.jpg",
+	"vegetarian": true,
+	"vegan": true,
+	"title": "Dill Leaves Pakora",
+	"url": "https:\/\/spoonacular.com\/dill-leaves-pakora-600796",
+	"recipeId": 600796,
+	"nutrients": [{
+		"amount": 188.6,
+		"unit": "cal",
+		"percentOfDailyNeeds": 9.43,
+		"title": "Calories"
+	}, {
+		"amount": 5.47,
+		"unit": "g",
+		"percentOfDailyNeeds": 8.42,
+		"title": "Fat"
+	}, {
+		"amount": 28.57,
+		"unit": "g",
+		"percentOfDailyNeeds": 9.52,
+		"title": "Carbohydrates"
+	}, {
+		"amount": 6.9,
+		"unit": "g",
+		"percentOfDailyNeeds": 13.79,
+		"title": "Protein"
+	}]
+}, {
+	"readyInMinutes": 10,
+	"imageUrl": "https:\/\/spoonacular.com\/recipeImages\/aloo-pakora-2-100583.jpg",
+	"vegetarian": true,
+	"vegan": true,
+	"title": "Aloo (Potato) Pakora",
+	"url": "https:\/\/spoonacular.com\/aloo-potato-pakora-100583",
+	"recipeId": 100583,
+	"nutrients": [{
+		"amount": 236.85,
+		"unit": "cal",
+		"percentOfDailyNeeds": 11.84,
+		"title": "Calories"
+	}, {
+		"amount": 9.21,
+		"unit": "g",
+		"percentOfDailyNeeds": 14.17,
+		"title": "Fat"
+	}, {
+		"amount": 31.32,
+		"unit": "g",
+		"percentOfDailyNeeds": 10.44,
+		"title": "Carbohydrates"
+	}, {
+		"amount": 8.63,
+		"unit": "g",
+		"percentOfDailyNeeds": 17.26,
+		"title": "Protein"
+	}]
+}, {
+	"readyInMinutes": 15,
+	"imageUrl": "https:\/\/spoonacular.com\/recipeImages\/pineapple-raita---how-how-to-make-pineapple-raita-488288.jpg",
+	"vegetarian": false,
+	"vegan": false,
+	"title": "pineapple raita , how how to make pineapple raita",
+	"url": "https:\/\/spoonacular.com\/pineapple-raita-how-how-to-make-pineapple-raita-488288",
+	"recipeId": 488288,
+	"nutrients": [{
+		"amount": 164.19,
+		"unit": "cal",
+		"percentOfDailyNeeds": 8.21,
+		"title": "Calories"
+	}, {
+		"amount": 6.05,
+		"unit": "g",
+		"percentOfDailyNeeds": 9.31,
+		"title": "Fat"
+	}, {
+		"amount": 22.86,
+		"unit": "g",
+		"percentOfDailyNeeds": 7.62,
+		"title": "Carbohydrates"
+	}, {
+		"amount": 6.6,
+		"unit": "g",
+		"percentOfDailyNeeds": 13.2,
+		"title": "Protein"
+	}]
+}, {
+	"readyInMinutes": 10,
+	"imageUrl": "https:\/\/spoonacular.com\/recipeImages\/pomegranate-raita---how-to-make-pomegranate-raita-486635.jpg",
+	"vegetarian": true,
+	"vegan": false,
+	"title": "pomegranate raita , how to make pomegranate raita",
+	"url": "https:\/\/spoonacular.com\/pomegranate-raita-how-to-make-pomegranate-raita-486635",
+	"recipeId": 486635,
+	"nutrients": [{
+		"amount": 213.21,
+		"unit": "cal",
+		"percentOfDailyNeeds": 10.66,
+		"title": "Calories"
+	}, {
+		"amount": 6.86,
+		"unit": "g",
+		"percentOfDailyNeeds": 10.55,
+		"title": "Fat"
+	}, {
+		"amount": 32.63,
+		"unit": "g",
+		"percentOfDailyNeeds": 10.88,
+		"title": "Carbohydrates"
+	}, {
+		"amount": 7.58,
+		"unit": "g",
+		"percentOfDailyNeeds": 15.15,
+		"title": "Protein"
+	}]
+}, {
+	"readyInMinutes": 45,
+	"imageUrl": "https:\/\/spoonacular.com\/recipeImages\/Coconut-Curry-Mussels-568548.jpg",
+	"vegetarian": false,
+	"vegan": false,
+	"title": "Coconut Curry Mussels",
+	"url": "https:\/\/spoonacular.com\/coconut-curry-mussels-568548",
+	"recipeId": 568548,
+	"nutrients": [{
+		"amount": 292.54,
+		"unit": "cal",
+		"percentOfDailyNeeds": 14.63,
+		"title": "Calories"
+	}, {
+		"amount": 22.17,
+		"unit": "g",
+		"percentOfDailyNeeds": 34.11,
+		"title": "Fat"
+	}, {
+		"amount": 8.9,
+		"unit": "g",
+		"percentOfDailyNeeds": 2.97,
+		"title": "Carbohydrates"
+	}, {
+		"amount": 15.98,
+		"unit": "g",
+		"percentOfDailyNeeds": 31.97,
+		"title": "Protein"
+	}]
+}, {
+	"readyInMinutes": 82,
+	"imageUrl": "https:\/\/spoonacular.com\/recipeImages\/spicy-beef-samosas-2-134143.jpg",
+	"vegetarian": false,
+	"vegan": false,
+	"title": "Spicy Beef Samosas",
+	"url": "https:\/\/spoonacular.com\/spicy-beef-samosas-134143",
+	"recipeId": 134143,
+	"nutrients": [{
+		"amount": 268.68,
+		"unit": "cal",
+		"percentOfDailyNeeds": 13.43,
+		"title": "Calories"
+	}, {
+		"amount": 18.38,
+		"unit": "g",
+		"percentOfDailyNeeds": 28.28,
+		"title": "Fat"
+	}, {
+		"amount": 17.43,
+		"unit": "g",
+		"percentOfDailyNeeds": 5.81,
+		"title": "Carbohydrates"
+	}, {
+		"amount": 8.53,
+		"unit": "g",
+		"percentOfDailyNeeds": 17.07,
+		"title": "Protein"
+	}]
+}, {
+	"readyInMinutes": 45,
+	"imageUrl": "https:\/\/spoonacular.com\/recipeImages\/Coconut-Curry-Mussels-247054.jpg",
+	"vegetarian": false,
+	"vegan": false,
+	"title": "Coconut Curry Mussels",
+	"url": "https:\/\/spoonacular.com\/coconut-curry-mussels-247054",
+	"recipeId": 247054,
+	"nutrients": [{
+		"amount": 387.02,
+		"unit": "cal",
+		"percentOfDailyNeeds": 19.35,
+		"title": "Calories"
+	}, {
+		"amount": 30.38,
+		"unit": "g",
+		"percentOfDailyNeeds": 46.74,
+		"title": "Fat"
+	}, {
+		"amount": 15.89,
+		"unit": "g",
+		"percentOfDailyNeeds": 5.3,
+		"title": "Carbohydrates"
+	}, {
+		"amount": 16.94,
+		"unit": "g",
+		"percentOfDailyNeeds": 33.88,
+		"title": "Protein"
+	}]
+}, {
+	"readyInMinutes": 270,
+	"imageUrl": "https:\/\/spoonacular.com\/recipeImages\/chana-dal-pakora---how-to-make-chana-dal-pakora---pakora-s-487419.jpg",
+	"vegetarian": true,
+	"vegan": true,
+	"title": "chana dal pakora , how to make chana dal pakora | pakora s",
+	"url": "https:\/\/spoonacular.com\/chana-dal-pakora-how-to-make-chana-dal-pakora-pakora-s-487419",
+	"recipeId": 487419,
+	"nutrients": [{
+		"amount": 322.32,
+		"unit": "cal",
+		"percentOfDailyNeeds": 16.12,
+		"title": "Calories"
+	}, {
+		"amount": 14.9,
+		"unit": "g",
+		"percentOfDailyNeeds": 22.93,
+		"title": "Fat"
+	}, {
+		"amount": 35.08,
+		"unit": "g",
+		"percentOfDailyNeeds": 11.69,
+		"title": "Carbohydrates"
+	}, {
+		"amount": 13.42,
+		"unit": "g",
+		"percentOfDailyNeeds": 26.85,
+		"title": "Protein"
+	}]
+}, {
+	"readyInMinutes": 30,
+	"imageUrl": "https:\/\/spoonacular.com\/recipeImages\/Spring-Onion-Pakora---How-to-make-Hare-Pyaz-ke-pakode-600705.jpg",
+	"vegetarian": true,
+	"vegan": true,
+	"title": "Spring Onion Pakora | How to make Hare Pyaz ke pakode",
+	"url": "https:\/\/spoonacular.com\/spring-onion-pakora-how-to-make-hare-pyaz-ke-pakode-600705",
+	"recipeId": 600705,
+	"nutrients": [{
+		"amount": 364.12,
+		"unit": "cal",
+		"percentOfDailyNeeds": 18.21,
+		"title": "Calories"
+	}, {
+		"amount": 18.56,
+		"unit": "g",
+		"percentOfDailyNeeds": 28.56,
+		"title": "Fat"
+	}, {
+		"amount": 39.1,
+		"unit": "g",
+		"percentOfDailyNeeds": 13.03,
+		"title": "Carbohydrates"
+	}, {
+		"amount": 12.36,
+		"unit": "g",
+		"percentOfDailyNeeds": 24.72,
+		"title": "Protein"
+	}]
+}, {
+	"readyInMinutes": 116,
+	"imageUrl": "https:\/\/spoonacular.com\/recipeImages\/freeform_samosas-72893.jpg",
+	"vegetarian": true,
+	"vegan": false,
+	"title": "Freeform Samosas",
+	"url": "https:\/\/spoonacular.com\/freeform-samosas-72893",
+	"recipeId": 72893,
+	"nutrients": [{
+		"amount": 564.96,
+		"unit": "cal",
+		"percentOfDailyNeeds": 28.25,
+		"title": "Calories"
+	}, {
+		"amount": 27.28,
+		"unit": "g",
+		"percentOfDailyNeeds": 41.97,
+		"title": "Fat"
+	}, {
+		"amount": 68.37,
+		"unit": "g",
+		"percentOfDailyNeeds": 22.79,
+		"title": "Carbohydrates"
+	}, {
+		"amount": 12.43,
+		"unit": "g",
+		"percentOfDailyNeeds": 24.86,
+		"title": "Protein"
+	}]
+}, {
+	"readyInMinutes": 45,
+	"imageUrl": "https:\/\/spoonacular.com\/recipeImages\/Spicy-Indian-Snack-Mix-244939.jpg",
+	"vegetarian": true,
+	"vegan": true,
+	"title": "Spicy Indian Snack Mix",
+	"url": "https:\/\/spoonacular.com\/spicy-indian-snack-mix-244939",
+	"recipeId": 244939,
+	"nutrients": [{
+		"amount": 455.72,
+		"unit": "cal",
+		"percentOfDailyNeeds": 22.79,
+		"title": "Calories"
+	}, {
+		"amount": 10.65,
+		"unit": "g",
+		"percentOfDailyNeeds": 16.39,
+		"title": "Fat"
+	}, {
+		"amount": 83.89,
+		"unit": "g",
+		"percentOfDailyNeeds": 27.96,
+		"title": "Carbohydrates"
+	}, {
+		"amount": 8.51,
+		"unit": "g",
+		"percentOfDailyNeeds": 17.03,
+		"title": "Protein"
+	}]
+}, {
+	"readyInMinutes": 45,
+	"imageUrl": "https:\/\/spoonacular.com\/recipeImages\/spiced_corn_and_chickpeas_baked_samosas-31814.jpg",
+	"vegetarian": true,
+	"vegan": true,
+	"title": "Spiced Corn And Chickpeas Baked Samosas",
+	"url": "https:\/\/spoonacular.com\/spiced-corn-and-chickpeas-baked-samosas-31814",
+	"recipeId": 31814,
+	"nutrients": [{
+		"amount": 406.57,
+		"unit": "cal",
+		"percentOfDailyNeeds": 20.33,
+		"title": "Calories"
+	}, {
+		"amount": 25.3,
+		"unit": "g",
+		"percentOfDailyNeeds": 38.93,
+		"title": "Fat"
+	}, {
+		"amount": 42.71,
+		"unit": "g",
+		"percentOfDailyNeeds": 14.24,
+		"title": "Carbohydrates"
+	}, {
+		"amount": 7.94,
+		"unit": "g",
+		"percentOfDailyNeeds": 15.88,
+		"title": "Protein"
+	}]
+}, {
+	"readyInMinutes": 45,
+	"imageUrl": "https:\/\/spoonacular.com\/recipeImages\/Potato-(Aloo)-Samosas----inspired-by-Todays-Special-{food-n-flix}-480198.jpg",
+	"vegetarian": false,
+	"vegan": false,
+	"title": "Potato (Aloo) Samosas ...inspired by Today's Special {food 'n flix}",
+	"url": "https:\/\/spoonacular.com\/potato-aloo-samosas-inspired-by-todays-special-food-n-flix-480198",
+	"recipeId": 480198,
+	"nutrients": [{
+		"amount": 586.05,
+		"unit": "cal",
+		"percentOfDailyNeeds": 29.3,
+		"title": "Calories"
+	}, {
+		"amount": 30.5,
+		"unit": "g",
+		"percentOfDailyNeeds": 46.92,
+		"title": "Fat"
+	}, {
+		"amount": 56.36,
+		"unit": "g",
+		"percentOfDailyNeeds": 18.79,
+		"title": "Carbohydrates"
+	}, {
+		"amount": 14.91,
+		"unit": "g",
+		"percentOfDailyNeeds": 29.82,
+		"title": "Protein"
+	}]
+}, {
+	"readyInMinutes": 30,
+	"imageUrl": "https:\/\/spoonacular.com\/recipeImages\/Cabbage-Pakoda---Crisp-cabbage-pakora-600506.jpg",
+	"vegetarian": true,
+	"vegan": true,
+	"title": "Cabbage Pakoda | Crisp cabbage pakora",
+	"url": "https:\/\/spoonacular.com\/cabbage-pakoda-crisp-cabbage-pakora-600506",
+	"recipeId": 600506,
+	"nutrients": [{
+		"amount": 296.66,
+		"unit": "cal",
+		"percentOfDailyNeeds": 14.83,
+		"title": "Calories"
+	}, {
+		"amount": 16.33,
+		"unit": "g",
+		"percentOfDailyNeeds": 25.12,
+		"title": "Fat"
+	}, {
+		"amount": 30.84,
+		"unit": "g",
+		"percentOfDailyNeeds": 10.28,
+		"title": "Carbohydrates"
+	}, {
+		"amount": 8.02,
+		"unit": "g",
+		"percentOfDailyNeeds": 16.05,
+		"title": "Protein"
+	}]
+}, {
+	"readyInMinutes": 130,
+	"imageUrl": "https:\/\/spoonacular.com\/recipeImages\/Vegetable-Samosas-363249.jpeg",
+	"vegetarian": false,
+	"vegan": false,
+	"title": "Vegetable Samosas",
+	"url": "https:\/\/spoonacular.com\/vegetable-samosas-363249",
+	"recipeId": 363249,
+	"nutrients": [{
+		"amount": 274.03,
+		"unit": "cal",
+		"percentOfDailyNeeds": 13.7,
+		"title": "Calories"
+	}, {
+		"amount": 7.24,
+		"unit": "g",
+		"percentOfDailyNeeds": 11.14,
+		"title": "Fat"
+	}, {
+		"amount": 45.32,
+		"unit": "g",
+		"percentOfDailyNeeds": 15.11,
+		"title": "Carbohydrates"
+	}, {
+		"amount": 7.38,
+		"unit": "g",
+		"percentOfDailyNeeds": 14.77,
+		"title": "Protein"
+	}]
+}, {
+	"readyInMinutes": 25,
+	"imageUrl": "https:\/\/spoonacular.com\/recipeImages\/rice-pakora---chawal-ke-pakore-612070.jpg",
+	"vegetarian": true,
+	"vegan": true,
+	"title": "rice pakora | chawal ke pakore",
+	"url": "https:\/\/spoonacular.com\/rice-pakora-chawal-ke-pakore-612070",
+	"recipeId": 612070,
+	"nutrients": [{
+		"amount": 417.13,
+		"unit": "cal",
+		"percentOfDailyNeeds": 20.86,
+		"title": "Calories"
+	}, {
+		"amount": 17.72,
+		"unit": "g",
+		"percentOfDailyNeeds": 27.27,
+		"title": "Fat"
+	}, {
+		"amount": 54.87,
+		"unit": "g",
+		"percentOfDailyNeeds": 18.29,
+		"title": "Carbohydrates"
+	}, {
+		"amount": 13.91,
+		"unit": "g",
+		"percentOfDailyNeeds": 27.83,
+		"title": "Protein"
+	}]
+}, {
+	"readyInMinutes": 25,
+	"imageUrl": "https:\/\/spoonacular.com\/recipeImages\/vegan-raita-2-102828.png",
+	"vegetarian": true,
+	"vegan": true,
+	"title": "Vegan Raita",
+	"url": "https:\/\/spoonacular.com\/vegan-raita-102828",
+	"recipeId": 102828,
+	"nutrients": [{
+		"amount": 198.4,
+		"unit": "cal",
+		"percentOfDailyNeeds": 9.92,
+		"title": "Calories"
+	}, {
+		"amount": 16.96,
+		"unit": "g",
+		"percentOfDailyNeeds": 26.1,
+		"title": "Fat"
+	}, {
+		"amount": 8.07,
+		"unit": "g",
+		"percentOfDailyNeeds": 2.69,
+		"title": "Carbohydrates"
+	}, {
+		"amount": 5.71,
+		"unit": "g",
+		"percentOfDailyNeeds": 11.43,
+		"title": "Protein"
+	}]
+}, {
+	"readyInMinutes": 45,
+	"imageUrl": "https:\/\/spoonacular.com\/recipeImages\/spring-onion-pakora--how-to-make-spring-onion-pakoras-487519.jpg",
+	"vegetarian": true,
+	"vegan": true,
+	"title": "spring onion pakora – how to make spring onion pakoras",
+	"url": "https:\/\/spoonacular.com\/spring-onion-pakora-how-to-make-spring-onion-pakoras-487519",
+	"recipeId": 487519,
+	"nutrients": [{
+		"amount": 217.68,
+		"unit": "cal",
+		"percentOfDailyNeeds": 10.88,
+		"title": "Calories"
+	}, {
+		"amount": 15.59,
+		"unit": "g",
+		"percentOfDailyNeeds": 23.99,
+		"title": "Fat"
+	}, {
+		"amount": 15.01,
+		"unit": "g",
+		"percentOfDailyNeeds": 5,
+		"title": "Carbohydrates"
+	}, {
+		"amount": 5.09,
+		"unit": "g",
+		"percentOfDailyNeeds": 10.18,
+		"title": "Protein"
+	}]
+}, {
+	"readyInMinutes": 35,
+	"imageUrl": "https:\/\/spoonacular.com\/recipeImages\/Beetroot-Raita-600567.jpg",
+	"vegetarian": false,
+	"vegan": false,
+	"title": "Beetroot Raita",
+	"url": "https:\/\/spoonacular.com\/beetroot-raita-600567",
+	"recipeId": 600567,
+	"nutrients": [{
+		"amount": 154.78,
+		"unit": "cal",
+		"percentOfDailyNeeds": 7.74,
+		"title": "Calories"
+	}, {
+		"amount": 6.83,
+		"unit": "g",
+		"percentOfDailyNeeds": 10.51,
+		"title": "Fat"
+	}, {
+		"amount": 18.48,
+		"unit": "g",
+		"percentOfDailyNeeds": 6.16,
+		"title": "Carbohydrates"
+	}, {
+		"amount": 5.57,
+		"unit": "g",
+		"percentOfDailyNeeds": 11.14,
+		"title": "Protein"
+	}]
+}, {
+	"readyInMinutes": 40,
+	"imageUrl": "https:\/\/spoonacular.com\/recipeImages\/dill-leaves-pakora---how-to-make-dill-leaves-pakoras-487849.jpg",
+	"vegetarian": true,
+	"vegan": true,
+	"title": "dill leaves pakora , how to make dill leaves pakoras",
+	"url": "https:\/\/spoonacular.com\/dill-leaves-pakora-how-to-make-dill-leaves-pakoras-487849",
+	"recipeId": 487849,
+	"nutrients": [{
+		"amount": 282.7,
+		"unit": "cal",
+		"percentOfDailyNeeds": 14.13,
+		"title": "Calories"
+	}, {
+		"amount": 17.43,
+		"unit": "g",
+		"percentOfDailyNeeds": 26.82,
+		"title": "Fat"
+	}, {
+		"amount": 23.88,
+		"unit": "g",
+		"percentOfDailyNeeds": 7.96,
+		"title": "Carbohydrates"
+	}, {
+		"amount": 8.36,
+		"unit": "g",
+		"percentOfDailyNeeds": 16.72,
+		"title": "Protein"
+	}]
+}, {
+	"readyInMinutes": 15,
+	"imageUrl": "https:\/\/spoonacular.com\/recipeImages\/Banana-Raita---How-to-make-kele-ka-raita-600778.jpg",
+	"vegetarian": true,
+	"vegan": false,
+	"title": "Banana Raita | How to make kele ka raita",
+	"url": "https:\/\/spoonacular.com\/banana-raita-how-to-make-kele-ka-raita-600778",
+	"recipeId": 600778,
+	"nutrients": [{
+		"amount": 195.14,
+		"unit": "cal",
+		"percentOfDailyNeeds": 9.76,
+		"title": "Calories"
+	}, {
+		"amount": 6.5,
+		"unit": "g",
+		"percentOfDailyNeeds": 10,
+		"title": "Fat"
+	}, {
+		"amount": 31.76,
+		"unit": "g",
+		"percentOfDailyNeeds": 10.59,
+		"title": "Carbohydrates"
+	}, {
+		"amount": 5.6,
+		"unit": "g",
+		"percentOfDailyNeeds": 11.2,
+		"title": "Protein"
+	}]
+}, {
+	"readyInMinutes": 15,
+	"imageUrl": "https:\/\/spoonacular.com\/recipeImages\/Cucumber-Raita-600644.jpg",
+	"vegetarian": true,
+	"vegan": false,
+	"title": "Cucumber Raita",
+	"url": "https:\/\/spoonacular.com\/cucumber-raita-600644",
+	"recipeId": 600644,
+	"nutrients": [{
+		"amount": 132.77,
+		"unit": "cal",
+		"percentOfDailyNeeds": 6.64,
+		"title": "Calories"
+	}, {
+		"amount": 8.44,
+		"unit": "g",
+		"percentOfDailyNeeds": 12.98,
+		"title": "Fat"
+	}, {
+		"amount": 9.47,
+		"unit": "g",
+		"percentOfDailyNeeds": 3.16,
+		"title": "Carbohydrates"
+	}, {
+		"amount": 5.41,
+		"unit": "g",
+		"percentOfDailyNeeds": 10.82,
+		"title": "Protein"
+	}]
+}, {
+	"readyInMinutes": 35,
+	"imageUrl": "https:\/\/spoonacular.com\/recipeImages\/Rice-Pakora-629425.jpg",
+	"vegetarian": true,
+	"vegan": true,
+	"title": "Rice Pakora",
+	"url": "https:\/\/spoonacular.com\/rice-pakora-629425",
+	"recipeId": 629425,
+	"nutrients": [{
+		"amount": 336.86,
+		"unit": "cal",
+		"percentOfDailyNeeds": 16.84,
+		"title": "Calories"
+	}, {
+		"amount": 16.41,
+		"unit": "g",
+		"percentOfDailyNeeds": 25.25,
+		"title": "Fat"
+	}, {
+		"amount": 38.36,
+		"unit": "g",
+		"percentOfDailyNeeds": 12.79,
+		"title": "Carbohydrates"
+	}, {
+		"amount": 8.98,
+		"unit": "g",
+		"percentOfDailyNeeds": 17.96,
+		"title": "Protein"
+	}]
+}, {
+	"readyInMinutes": 4,
+	"imageUrl": "https:\/\/spoonacular.com\/recipeImages\/cucumber-raita-2-22801.jpg",
+	"vegetarian": true,
+	"vegan": false,
+	"title": "Cucumber Raita",
+	"url": "https:\/\/spoonacular.com\/cucumber-raita-22801",
+	"recipeId": 22801,
+	"nutrients": [{
+		"amount": 116.65,
+		"unit": "cal",
+		"percentOfDailyNeeds": 5.83,
+		"title": "Calories"
+	}, {
+		"amount": 5.64,
+		"unit": "g",
+		"percentOfDailyNeeds": 8.67,
+		"title": "Fat"
+	}, {
+		"amount": 10.59,
+		"unit": "g",
+		"percentOfDailyNeeds": 3.53,
+		"title": "Carbohydrates"
+	}, {
+		"amount": 6.5,
+		"unit": "g",
+		"percentOfDailyNeeds": 13,
+		"title": "Protein"
+	}]
+}, {
+	"readyInMinutes": 45,
+	"imageUrl": "https:\/\/spoonacular.com\/recipeImages\/peanuts_with_indian_spices-34980.jpg",
+	"vegetarian": true,
+	"vegan": false,
+	"title": "Peanuts with Indian Spices",
+	"url": "https:\/\/spoonacular.com\/peanuts-with-indian-spices-34980",
+	"recipeId": 34980,
+	"nutrients": [{
+		"amount": 232.47,
+		"unit": "cal",
+		"percentOfDailyNeeds": 11.62,
+		"title": "Calories"
+	}, {
+		"amount": 19.19,
+		"unit": "g",
+		"percentOfDailyNeeds": 29.53,
+		"title": "Fat"
+	}, {
+		"amount": 9.56,
+		"unit": "g",
+		"percentOfDailyNeeds": 3.19,
+		"title": "Carbohydrates"
+	}, {
+		"amount": 9.56,
+		"unit": "g",
+		"percentOfDailyNeeds": 19.11,
+		"title": "Protein"
+	}]
+}, {
+	"readyInMinutes": 90,
+	"imageUrl": "https:\/\/spoonacular.com\/recipeImages\/samosa---how-to-make-samosa---punjabi-samosa-486787.jpg",
+	"vegetarian": true,
+	"vegan": false,
+	"title": "samosa , how to make samosa | punjabi samosa",
+	"url": "https:\/\/spoonacular.com\/samosa-how-to-make-samosa-punjabi-samosa-486787",
+	"recipeId": 486787,
+	"nutrients": [{
+		"amount": 726.03,
+		"unit": "cal",
+		"percentOfDailyNeeds": 36.3,
+		"title": "Calories"
+	}, {
+		"amount": 25.33,
+		"unit": "g",
+		"percentOfDailyNeeds": 38.98,
+		"title": "Fat"
+	}, {
+		"amount": 107.2,
+		"unit": "g",
+		"percentOfDailyNeeds": 35.73,
+		"title": "Carbohydrates"
+	}, {
+		"amount": 19.62,
+		"unit": "g",
+		"percentOfDailyNeeds": 39.24,
+		"title": "Protein"
+	}]
+}, {
+	"readyInMinutes": 65,
+	"imageUrl": "https:\/\/spoonacular.com\/recipeImages\/methi-na-gota-or-methi-pakora---gujarati-s-486844.jpg",
+	"vegetarian": true,
+	"vegan": true,
+	"title": "methi na gota or methi pakora | gujarati s",
+	"url": "https:\/\/spoonacular.com\/methi-na-gota-or-methi-pakora-gujarati-s-486844",
+	"recipeId": 486844,
+	"nutrients": [{
+		"amount": 258.43,
+		"unit": "cal",
+		"percentOfDailyNeeds": 12.92,
+		"title": "Calories"
+	}, {
+		"amount": 16.11,
+		"unit": "g",
+		"percentOfDailyNeeds": 24.79,
+		"title": "Fat"
+	}, {
+		"amount": 25.3,
+		"unit": "g",
+		"percentOfDailyNeeds": 8.43,
+		"title": "Carbohydrates"
+	}, {
+		"amount": 6.05,
+		"unit": "g",
+		"percentOfDailyNeeds": 12.09,
+		"title": "Protein"
+	}]
+}, {
+	"readyInMinutes": 10,
+	"imageUrl": "https:\/\/spoonacular.com\/recipeImages\/mint-coriander-raita---how-to-make-mint-coriander-raita-487285.jpg",
+	"vegetarian": true,
+	"vegan": false,
+	"title": "mint coriander raita , how to make mint coriander raita",
+	"url": "https:\/\/spoonacular.com\/mint-coriander-raita-how-to-make-mint-coriander-raita-487285",
+	"recipeId": 487285,
+	"nutrients": [{
+		"amount": 279.63,
+		"unit": "cal",
+		"percentOfDailyNeeds": 13.98,
+		"title": "Calories"
+	}, {
+		"amount": 7.02,
+		"unit": "g",
+		"percentOfDailyNeeds": 10.8,
+		"title": "Fat"
+	}, {
+		"amount": 45.67,
+		"unit": "g",
+		"percentOfDailyNeeds": 15.22,
+		"title": "Carbohydrates"
+	}, {
+		"amount": 18.46,
+		"unit": "g",
+		"percentOfDailyNeeds": 36.92,
+		"title": "Protein"
+	}]
+}, {
+	"readyInMinutes": 25,
+	"imageUrl": "https:\/\/spoonacular.com\/recipeImages\/Beetroot-Carrot-Raita---Easy-Beetroot-Carrot-Raita-486823.jpg",
+	"vegetarian": true,
+	"vegan": false,
+	"title": "Beetroot Carrot Raita , Easy Beetroot Carrot Raita",
+	"url": "https:\/\/spoonacular.com\/beetroot-carrot-raita-easy-beetroot-carrot-raita-486823",
+	"recipeId": 486823,
+	"nutrients": [{
+		"amount": 149.19,
+		"unit": "cal",
+		"percentOfDailyNeeds": 7.46,
+		"title": "Calories"
+	}, {
+		"amount": 5.71,
+		"unit": "g",
+		"percentOfDailyNeeds": 8.78,
+		"title": "Fat"
+	}, {
+		"amount": 18.28,
+		"unit": "g",
+		"percentOfDailyNeeds": 6.09,
+		"title": "Carbohydrates"
+	}, {
+		"amount": 7.21,
+		"unit": "g",
+		"percentOfDailyNeeds": 14.42,
+		"title": "Protein"
+	}]
+}, {
+	"readyInMinutes": 50,
+	"imageUrl": "https:\/\/spoonacular.com\/recipeImages\/kadhi-pakora-_-pakoras-2-100626.jpg",
+	"vegetarian": true,
+	"vegan": false,
+	"title": "Kadhi Pakora \/ Pakoras",
+	"url": "https:\/\/spoonacular.com\/kadhi-pakora-pakoras-100626",
+	"recipeId": 100626,
+	"nutrients": [{
+		"amount": 373.41,
+		"unit": "cal",
+		"percentOfDailyNeeds": 18.67,
+		"title": "Calories"
+	}, {
+		"amount": 20.67,
+		"unit": "g",
+		"percentOfDailyNeeds": 31.79,
+		"title": "Fat"
+	}, {
+		"amount": 35.04,
+		"unit": "g",
+		"percentOfDailyNeeds": 11.68,
+		"title": "Carbohydrates"
+	}, {
+		"amount": 13.54,
+		"unit": "g",
+		"percentOfDailyNeeds": 27.08,
+		"title": "Protein"
+	}]
+}, {
+	"readyInMinutes": 70,
+	"imageUrl": "https:\/\/spoonacular.com\/recipeImages\/punjabi-kadhi---how-to-make-punjabi-kadhi-pakora-487432.jpg",
+	"vegetarian": true,
+	"vegan": false,
+	"title": "punjabi kadhi , how to make punjabi kadhi pakora",
+	"url": "https:\/\/spoonacular.com\/punjabi-kadhi-how-to-make-punjabi-kadhi-pakora-487432",
+	"recipeId": 487432,
+	"nutrients": [{
+		"amount": 293.48,
+		"unit": "cal",
+		"percentOfDailyNeeds": 14.67,
+		"title": "Calories"
+	}, {
+		"amount": 14.55,
+		"unit": "g",
+		"percentOfDailyNeeds": 22.38,
+		"title": "Fat"
+	}, {
+		"amount": 30.16,
+		"unit": "g",
+		"percentOfDailyNeeds": 10.05,
+		"title": "Carbohydrates"
+	}, {
+		"amount": 11.24,
+		"unit": "g",
+		"percentOfDailyNeeds": 22.47,
+		"title": "Protein"
+	}]
+}, {
+	"readyInMinutes": 45,
+	"imageUrl": "https:\/\/spoonacular.com\/recipeImages\/Curry-Mushroom-Toast--Cooking-Club-1908-533094.jpg",
+	"vegetarian": true,
+	"vegan": false,
+	"title": "Curry Mushroom Toast – Cooking Club 1908",
+	"url": "https:\/\/spoonacular.com\/curry-mushroom-toast-cooking-club-1908-533094",
+	"recipeId": 533094,
+	"nutrients": [{
+		"amount": 267.39,
+		"unit": "cal",
+		"percentOfDailyNeeds": 13.37,
+		"title": "Calories"
+	}, {
+		"amount": 16.15,
+		"unit": "g",
+		"percentOfDailyNeeds": 24.84,
+		"title": "Fat"
+	}, {
+		"amount": 25.49,
+		"unit": "g",
+		"percentOfDailyNeeds": 8.5,
+		"title": "Carbohydrates"
+	}, {
+		"amount": 6.55,
+		"unit": "g",
+		"percentOfDailyNeeds": 13.1,
+		"title": "Protein"
+	}]
+}]
