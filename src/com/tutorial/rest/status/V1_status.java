@@ -11,12 +11,16 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
+import org.apache.solr.client.solrj.SolrQuery;
+import org.apache.solr.client.solrj.impl.HttpSolrServer;
+import org.apache.solr.client.solrj.response.FacetField;
+import org.apache.solr.client.solrj.response.QueryResponse;
+import org.apache.solr.common.SolrDocument;
+import org.apache.solr.common.SolrDocumentList;
 import org.codehaus.jettison.json.JSONArray;
 import org.json.JSONObject;
 
 import com.air.RecipeFinder;
-
-import rssreader.ReadTest;
 
 
 /**
@@ -31,7 +35,7 @@ import rssreader.ReadTest;
  * @author 308tube
  *
  */
-@Path("/v1/recipe/")
+@Path("/v1/")
 public class V1_status {
 
 	private static final String api_version = "00.01.00"; //version of the api
@@ -43,6 +47,7 @@ public class V1_status {
 	 * @return String - Title of the api
 	 * @throws Exception 
 	 */
+	@Path("/recipe")
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
 	public String returnTitle() throws Exception {
@@ -58,8 +63,8 @@ public class V1_status {
 		}
 		return jsonArray.toString();
 	}
-	
-	
+
+
 
 	private JSONObject getJsonObject(String queryString) throws org.json.JSONException{
 		System.out.println("Query String : " + queryString);
@@ -92,7 +97,7 @@ public class V1_status {
 		jsonObj.put("query", queryObj);
 
 		System.out.println("Json : "+ jsonObj);
-		
+
 		return jsonObj;
 	}
 
@@ -113,7 +118,7 @@ public class V1_status {
 		return "<p>Version:</p>" + api_version;
 	}
 
-	@Path("/{queryString}")
+	@Path("/recipe/{queryString}")	
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
 	public String getRecipes(@PathParam("queryString") String queryString) throws Exception {
@@ -127,7 +132,7 @@ public class V1_status {
 		}catch(Exception e){
 			e.printStackTrace();
 		}
-		
+
 		//Random to be deleted
 		//************random starts************
 		Random rnd = new Random();
@@ -143,22 +148,210 @@ public class V1_status {
 		System.out.println("*********************Final syso start********************");
 		System.out.println(jsonArray.toString());
 		System.out.println("*********************Final syso end********************");
-		
+
 		return jsonArray.toString();
 	}
-	
-	@Path("/rssFeeds/{disease}")
+
+	@Path("/rssFeeds/{disease}/{preferences}/{lifestyle}")
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
-	public String getRssFeed(@PathParam("disease") String disease) throws Exception {
+	public String getRssFeed(@PathParam("disease") String disease, @PathParam("preferences") String preferences, @PathParam("lifestyle") String lifestyle) throws Exception {
 		//JSONObject jsonObj = getJsonObject(disease);
-		org.json.JSONArray jsonArray=null;
+		
+
+		System.out.println("preferences: "+preferences);
+		HttpSolrServer solr = new HttpSolrServer("http://utkkefe93c38.tushk1990.koding.io:8983/solr/rssfeed/");		
+		SolrQuery query = new SolrQuery();
+		System.out.println("Initialized solr core...");
+		String[] preferenceArray = preferences.split(",");
+		
+		StringBuilder sb = new StringBuilder();
+		for (String string : preferenceArray) {
+			sb.append(" OR title:"+string);
+		}
+		int activityLevel = Integer.parseInt(lifestyle);
+		switch (activityLevel) {
+		case 0:			
+			sb.append(" OR (title:exercise)^3");
+			break;
+		case 1:		
+			sb.append(" OR (title:exercise)^1.5");
+			break;		
+		case 2:			
+			sb.append(" OR (title:* -title:exercise)^2");
+			sb.append(" OR (title:exercise)^0.15");
+			break;
+		case 3:		
+			sb.append(" OR (title:* -title:exercise)^3");
+			sb.append(" OR (title:exercise)^0.15");
+			break;	
+		}
+		sb.append(" OR (title:"+disease+")^2 OR (disease:"+disease+")^2");
+		query.setQuery("*:*"+sb.toString());
+		query.addFacetField("title");
+		query.setFacet(true);
+		query.setRows(100);
+		System.out.println(query.toString());
+
+		query.setStart(0);    
+		//query.setFilterQueries("title:food");
+		//query.set("defType", "edismax");
+		System.out.println("Recieving response...");
+		org.json.JSONArray feedArray = new org.json.JSONArray();
+		org.json.JSONObject jsonObject = null;
+		org.json.JSONObject returnObject = new JSONObject();
+
+
 		try{
+			QueryResponse response = solr.query(query);
+			//System.out.println("facet Field info: " + response.getFacetFields());
+			SolrDocumentList results = response.getResults();
+			//System.out.println("results: " + response.toString());
+			for (SolrDocument solrDocument : results) {
+				jsonObject = new JSONObject();
+				String title = solrDocument.get("title").toString();
+				jsonObject.put("id",solrDocument.get("id"));
+				jsonObject.put("title",title);
+				for (String str : title.split(" ")) {
+					for (FacetField.Count facetField : response.getFacetFields().get(0).getValues()) {	
+						if(str.equalsIgnoreCase(facetField.getName())){
+							jsonObject.put("facet",facetField.getName());							
+							break;
+						}
+					}
+				}
+				jsonObject.put("link",solrDocument.get("link"));
+				feedArray.put(jsonObject);
+			}
+			org.json.simple.JSONArray facetArray = new org.json.simple.JSONArray();
+			org.json.simple.JSONObject facetObj = null;
+			int count = 0;
+			for (FacetField.Count facet : response.getFacetFields().get(0).getValues()) {	
+				facetObj = new org.json.simple.JSONObject();				
+				facetObj.put("title", facet.getName());
+				facetArray.add(facetObj);
+				if(count == 10)
+					break;
+				count++;
+			}
+			facetArray.add(new JSONObject().put("title", "All"));
+
+
+			returnObject.put("facets", facetArray);
+			returnObject.put("feed", feedArray);
+			System.out.println(returnObject);
+
+		}catch(Exception e){
+			e.printStackTrace();
+
+		}
+		//org.json.JSONObject jsonObj=querySolr();
+		/*try{
 			jsonArray = ReadTest.rssFeedReader(disease);
 		}catch(Exception e){
 			e.printStackTrace();
+		}*/
+		querySolr();
+
+		return returnObject.toString();
+	}
+
+
+	@Path("/rssFeeds/{disease}/{preferences}/{facet}/{lifestyle}")
+	@GET
+	@Produces(MediaType.APPLICATION_JSON)
+	public String getRssFeed(@PathParam("disease") String disease, @PathParam("preferences") String preferences, @PathParam("facet") String facet, @PathParam("lifestyle") String lifestyle) throws Exception {
+		System.out.println("preferences: "+preferences);
+		String[] preferenceArray = preferences.split(",");
+		HttpSolrServer solr = new HttpSolrServer("http://utkkefe93c38.tushk1990.koding.io:8983/solr/rssfeed/");		
+		SolrQuery query = new SolrQuery();
+		System.out.println("Initialized solr core...");
+		
+		StringBuilder sb = new StringBuilder();
+		for (String string : preferenceArray) {
+			sb.append(" OR title:"+string);
 		}
-		return jsonArray.toString();
+		int activityLevel = Integer.parseInt(lifestyle);
+		switch (activityLevel) {
+		case 0:			
+			sb.append(" OR (title:exercise)^3");
+			break;
+		case 1:		
+			sb.append(" OR (title:exercise)^1.5");
+			break;		
+		case 2:			
+			sb.append(" OR (title:* -title:exercise)^2");
+			sb.append(" OR (title:exercise)^0.15");
+			break;
+		case 3:		
+			sb.append(" OR (title:* -title:exercise)^3");
+			sb.append(" OR (title:exercise)^0.15");
+			break;	
+		}
+		sb.append(" OR (title:"+disease+")^1.5 OR (disease:"+disease+")^2");
+		query.setQuery("*:*"+sb.toString());
+		query.addFacetField("title");
+		query.setFacet(true);
+		query.setRows(100);
+		query.setStart(0);  
+		query.setFilterQueries("title:"+facet);		
+		System.out.println("query.toString(): " + query.toString());
+		
+
+		System.out.println("Recieving response...");
+		org.json.JSONArray feedArray = new org.json.JSONArray();
+		org.json.JSONObject jsonObject = null;
+		org.json.JSONObject returnObject = new JSONObject();		
+		try{
+			QueryResponse response = solr.query(query);
+			SolrDocumentList results = response.getResults();
+			for (SolrDocument solrDocument : results) {
+				jsonObject = new JSONObject();				
+				String title = solrDocument.get("title").toString();
+				jsonObject.put("id",solrDocument.get("id"));
+				jsonObject.put("title",title);
+				for (String str : title.split(" ")) {
+					for (FacetField.Count facetField : response.getFacetFields().get(0).getValues()) {	
+						if(str.equalsIgnoreCase(facetField.getName())){
+							jsonObject.put("facet",facetField.getName());							
+							break;
+						}
+					}
+				}
+				jsonObject.put("link",solrDocument.get("link"));
+				feedArray.put(jsonObject);
+			}
+			org.json.simple.JSONArray facetArray = new org.json.simple.JSONArray();
+			org.json.simple.JSONObject facetObj = null;
+			int count = 1;
+			for (FacetField.Count facetField : response.getFacetFields().get(0).getValues()) {	
+				facetObj = new org.json.simple.JSONObject();				
+				facetObj.put("title", facetField.getName());
+				facetArray.add(facetObj);
+				if(count == 10)
+					break;
+				count++;
+			}
+			facetArray.add(new JSONObject().put("title", "All"));
+
+
+			returnObject.put("facets", facetArray);
+			returnObject.put("feed", feedArray);
+			System.out.println(returnObject);
+
+		}catch(Exception e){
+			e.printStackTrace();
+
+		}
+		//org.json.JSONObject jsonObj=querySolr();
+		/*try{
+			jsonArray = ReadTest.rssFeedReader(disease);
+		}catch(Exception e){
+			e.printStackTrace();
+		}*/
+		querySolr();
+
+		return returnObject.toString();
 	}
 
 
@@ -196,9 +389,12 @@ public class V1_status {
 		return object;
 
 	}
-	
-	
 
+	public static void main(String[] args) {
+		new V1_status().querySolr();
+	}
 
-	
+	public org.json.JSONObject querySolr(){
+		return null;
+	}	
 }
